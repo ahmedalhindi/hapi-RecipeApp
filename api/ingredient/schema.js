@@ -1,6 +1,6 @@
-const {gql} = require('apollo-server-hapi')
+const { gql } = require("apollo-server-hapi")
 
-module.exports = gql(`
+module.exports = gql`
     type Ingredient {
         _id: ID
         name: String
@@ -13,5 +13,4 @@ module.exports = gql(`
     type Mutation {
         newIngredient(name: String): Ingredient
     }
-
-`)
+`
