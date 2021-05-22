@@ -2,7 +2,7 @@
 
 const hapi = require("@hapi/hapi")
 const db = require("./db")
-const routes = require('./routes')
+const routes = require("./routes")
 
 const init = async () => {
   // Initializing the server
